@@ -10,4 +10,9 @@ public class MenuHandler : MonoBehaviour
     {
         SceneManager.LoadScene(sceneToLoad);
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
